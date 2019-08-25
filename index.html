@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Vue Starter</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="vue.js"></script>
+    </head>
+    <body>
+        <div id="root" class="root">
+            <input type="text" v-on:input="changeTitle" />
+            <h1>{{ person.name }}</h1>
+        </div>
+    </body>
+    <script>
+        new Vue({
+            el: "#root",
+            data: {
+                person: { name: "Abdullah Furkan Özbek" }
+            },
+            methods: {
+                changeTitle: function(e) {
+                    this.person.name = e.target.value;
+                }
+            }
+        });
+    </script>
+</html>
