@@ -1,16 +1,17 @@
 new Vue({
-    el: "#exercise",
+    el: "#root",
     data: {
-        person: {
-            name: "Furkan",
-            age: 23
-        },
-        imageUrl:
-            "https://secure.img2-fg.wfcdn.com/im/02238154/compr-r85/8470/84707680/pokemon-pikachu-wall-decal.jpg"
+        counter: 0,
+        x: 0,
+        y: 0
     },
     methods: {
-        getRandom: function() {
-            return Math.random();
+        incrementCounter: function() {
+            return ++this.counter;
+        },
+        updateCoordinates: function(e) {
+            this.x = e.clientX;
+            this.y = e.clientY;
         }
     }
 });
