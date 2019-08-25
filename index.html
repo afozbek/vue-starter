@@ -9,12 +9,14 @@
         <script src="vue.js"></script>
     </head>
     <body>
-        <div id="root">
-            <input type="text" v-model="name" />
-
-            <h1>
-                {{ name }}
-            </h1>
+        <div id="root" class="root">
+            <div
+                class="demo"
+                @click="attachRed = !attachRed"
+                :class="{red: attachRed}"
+            ></div>
+            <div class="demo" :class="{red: attachRed}"></div>
+            <div class="demo" :class="{red: attachRed}"></div>
         </div>
     </body>
     <script src="index.js"></script>
