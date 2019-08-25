@@ -10,21 +10,9 @@
     </head>
     <body>
         <div id="root" class="root">
-            <input type="text" v-on:input="changeTitle" />
-            <h1>{{ person.name }}</h1>
+            <h1>{{ sayHello() }}</h1>
+            <a v-bind:href="link" target="_blank">Google</a>
         </div>
     </body>
-    <script>
-        new Vue({
-            el: "#root",
-            data: {
-                person: { name: "Abdullah Furkan Özbek" }
-            },
-            methods: {
-                changeTitle: function(e) {
-                    this.person.name = e.target.value;
-                }
-            }
-        });
-    </script>
+    <script src="index.js"></script>
 </html>
