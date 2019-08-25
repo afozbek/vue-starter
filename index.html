@@ -10,8 +10,8 @@
     </head>
     <body>
         <div id="root" class="root">
-            <h1>{{ sayHello() }}</h1>
-            <a v-bind:href="link" target="_blank">Google</a>
+            <button v-on:click="incrementCounter">Click Me</button>
+            <p>{{ counter }}</p>
         </div>
     </body>
     <script src="index.js"></script>

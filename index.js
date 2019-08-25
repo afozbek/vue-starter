@@ -1,12 +1,11 @@
 new Vue({
     el: "#root",
     data: {
-        title: "Hello World 👨🏻",
-        link: "https://google.com"
+        counter: 0
     },
     methods: {
-        sayHello: function() {
-            return this.title;
+        incrementCounter: function() {
+            return ++this.counter;
         }
     }
 });
