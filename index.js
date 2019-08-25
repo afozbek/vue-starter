@@ -1,20 +1,16 @@
 new Vue({
     el: "#root",
     data: {
-        counter: 0,
-        x: 0,
-        y: 0
+        name: "Furkan"
     },
-    methods: {
-        incrementCounter: function(step, event) {
-            this.counter += step;
-        },
-        updateCoordinates: function(e) {
-            this.x = e.clientX;
-            this.y = e.clientY;
-        },
-        alertMe: function(e) {
-            alert("Hello 👩🏻👩🏻");
+    computed: {},
+    watch: {
+        name: function(name) {
+            var vm = this;
+
+            setTimeout(function() {
+                vm.name = "Hello World 👩🏻";
+            }, 2000);
         }
     }
 });

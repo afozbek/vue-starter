@@ -9,16 +9,12 @@
         <script src="vue.js"></script>
     </head>
     <body>
-        <div id="root" class="root" v-on:mousemove="updateCoordinates">
-            <button v-on:click="incrementCounter(5, $event)">Click Me</button>
+        <div id="root">
+            <input type="text" v-model="name" />
 
-            <h1>{{ counter }}</h1>
-
-            <p>
-                Coordinates: {{ x }} : {{ y }} -
-                <span v-on:mousemove.stop>DEAD SPOT</span>
-            </p>
-            <input type="text" v-on:keyup.enter.space="alertMe" />
+            <h1>
+                {{ name }}
+            </h1>
         </div>
     </body>
     <script src="index.js"></script>
