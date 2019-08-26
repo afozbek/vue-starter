@@ -1,15 +1,17 @@
 new Vue({
-    el: "#root",
+    el: "#exercise",
     data: {
-        color: "gray",
-        width: 150
-    },
-    computed: {
-        myStyle: function() {
-            return {
-                backgroundColor: this.color,
-                width: this.width + "px"
-            };
-        }
+        array: ["Max", "Anna", "Chris", "Manu"],
+        myObject: {
+            title: "Lord of the Rings",
+            author: "J.R.R. Tolkiens",
+            books: "3"
+        },
+        testData: {
+            name: "TESTOBJECT",
+            id: 10,
+            data: [1.67, 1.33, 0.98, 2.21]
+        },
+        isShown: true
     }
 });
