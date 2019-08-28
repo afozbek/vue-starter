@@ -16,3 +16,4 @@
     -   Investigating Vue Components
 -   Moving on Real Development Workflow - **[28.08.2019]**
     -   Installing [Vue CLI](https://cli.vuejs.org/)
+    -   Working on eslint & prettier setup
