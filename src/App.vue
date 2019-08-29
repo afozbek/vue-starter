@@ -1,9 +1,7 @@
 <template>
-  <h1>Vue.js Merhabalar Diler</h1>
+    <div id="app">
+        <h1>Hello World</h1>
+    </div>
 </template>
 
-<script>
-export default {};
-</script>
-
-<style></style>
+<style lang="scss" scoped></style>
