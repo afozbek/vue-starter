@@ -17,6 +17,10 @@
 -   Moving on Real Development Workflow - **[28.08.2019]**
     -   Installing [Vue CLI](https://cli.vuejs.org/)
     -   Working on eslint & prettier setup
-
 - Updating config files(.eslintrc, .prettierrc) **[29.08.2019]**
   - Changing default Vetur › Format › Default Formatter: HTML to Prettier
+- Moving on Components deeply. **[29.08.2019]**
+  - Folder structuring of the components
+- Communication between components. **[29.08.2019]**
+  - Undestanding props.
+  - Managin props
