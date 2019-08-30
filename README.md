@@ -1,5 +1,4 @@
 # Furkan's road to learn Vue.js
-
 -   Getting Started on Vue.js - **[25.08.2019]**
 -   Vue.js interacting with DOM - **[25.08.2019]**
     -   Listening Events, Creating EventHandlers, Vue.js Default properties
@@ -18,9 +17,11 @@
     -   Installing [Vue CLI](https://cli.vuejs.org/)
     -   Working on eslint & prettier setup
 - Updating config files(.eslintrc, .prettierrc) **[29.08.2019]**
-  - Changing default Vetur › Format › Default Formatter: HTML to Prettier
+    - Changing default Vetur › Format › Default Formatter: HTML to Prettier
 - Moving on Components deeply. **[29.08.2019]**
-  - Folder structuring of the components
+    - Folder structuring of the components
 - Communication between components. **[29.08.2019]**
-  - Undestanding props.
-  - Managin props
+    - Undestanding props.
+    - Managin props
+- Understanding Slots & Dynamic Components with component & keep-alive **[30.08.2019]**
+    - Building small application using slots & dynamic components
