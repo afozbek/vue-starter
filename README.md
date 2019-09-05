@@ -25,3 +25,11 @@
     - Managin props
 - Understanding Slots & Dynamic Components with component & keep-alive **[30.08.2019]**
     - Building small application using slots & dynamic components
+-  Creating custom directives on Vue **[31.08.2019]**
+    - Handling forms, how to manage form inputs in Vue
+- Mixins and filters in Vue application **[01.09.2019]**
+  - Animation in Vue application with transition & transition-group
+- How to http work in Vue application **[04.09.2019]**
+  - vue-resource package to send http requests
+- Sending Http requests via axios **[05.09.2019]**
+  - What is new in new Vue CLI 3?
