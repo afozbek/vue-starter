@@ -1,35 +1,37 @@
 # Furkan's road to learn Vue.js
--   Getting Started on Vue.js - **[25.08.2019]**
--   Vue.js interacting with DOM - **[25.08.2019]**
-    -   Listening Events, Creating EventHandlers, Vue.js Default properties
-    -   [Assignments]
-    -   Changing Styles, Classes with Vue
--   Conditional Rendering in Vue.js - **[26.08.2019]**
-    -   v-if, v-else, v-show, v-for properties
-    -   [Assignments]
--   First Course Project: **The Monster Slayer** - **[26.08.2019]**
-    -   View on [Codepen](https://codepen.io/afozbek/pen/vYBxbKe)
-    -   Look to [Code](https://github.com/afozbek/Monster-Slayer)
--   Understanding Vue Instances - **[27.08.2019]**
-    -   Looking at Vue intance, $el, $data properties
-    -   Investigating Vue Components
--   Moving on Real Development Workflow - **[28.08.2019]**
-    -   Installing [Vue CLI](https://cli.vuejs.org/)
-    -   Working on eslint & prettier setup
+
+- Getting Started on Vue.js - **[25.08.2019]**
+- Vue.js interacting with DOM - **[25.08.2019]**
+  - Listening Events, Creating EventHandlers, Vue.js Default properties
+  - [Assignments]
+  - Changing Styles, Classes with Vue
+- Conditional Rendering in Vue.js - **[26.08.2019]**
+  - v-if, v-else, v-show, v-for properties
+  - [Assignments]
+- First Course Project: **The Monster Slayer** - **[26.08.2019]**
+  - View on [Codepen](https://codepen.io/afozbek/pen/vYBxbKe)
+  - Look to [Code](https://github.com/afozbek/Monster-Slayer)
+- Understanding Vue Instances - **[27.08.2019]**
+  - Looking at Vue intance, $el, $data properties
+  - Investigating Vue Components
+- Moving on Real Development Workflow - **[28.08.2019]**
+  - Installing [Vue CLI](https://cli.vuejs.org/)
+  - Working on eslint & prettier setup
 - Updating config files(.eslintrc, .prettierrc) **[29.08.2019]**
-    - Changing default Vetur › Format › Default Formatter: HTML to Prettier
+  - Changing default Vetur › Format › Default Formatter: HTML to Prettier
 - Moving on Components deeply. **[29.08.2019]**
-    - Folder structuring of the components
+  - Folder structuring of the components
 - Communication between components. **[29.08.2019]**
-    - Undestanding props.
-    - Managin props
+  - Undestanding props.
+  - Managin props
 - Understanding Slots & Dynamic Components with component & keep-alive **[30.08.2019]**
-    - Building small application using slots & dynamic components
--  Creating custom directives on Vue **[31.08.2019]**
-    - Handling forms, how to manage form inputs in Vue
+  - Building small application using slots & dynamic components
+- Creating custom directives on Vue **[31.08.2019]**
+  - Handling forms, how to manage form inputs in Vue
 - Mixins and filters in Vue application **[01.09.2019]**
   - Animation in Vue application with transition & transition-group
 - How to http work in Vue application **[04.09.2019]**
   - vue-resource package to send http requests
 - Sending Http requests via axios **[05.09.2019]**
   - What is new in new Vue CLI 3?
+  - What is `vue-router`? How can we use in our Vue.js applications
