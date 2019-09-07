@@ -33,3 +33,5 @@
   - vue-resource package to send http requests
 - Sending Http requests via axios **[05.09.2019]**
   - What is new in new Vue CLI 3?
+- Learning How Vuex work **[07.09.2019]**
+  - Better State Management than Event Bus or Event emitting
