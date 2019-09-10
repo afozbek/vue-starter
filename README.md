@@ -37,3 +37,4 @@
 - Learning How Vuex work **[07.09.2019]**
   - Better State Management than Event Bus or Event emitting
 - Built vue-stock-trader with vue, vuex, vue-router, firebase **[08.09.2019]**
+- Started to learn `Nuxt.js` **[10.09.2019]**
