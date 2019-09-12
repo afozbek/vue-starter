@@ -39,3 +39,4 @@
 - Built vue-stock-trader with vue, vuex, vue-router, firebase **[08.09.2019]**
 - Started to learn `Nuxt.js` **[10.09.2019]**
 - Learning how to authenticate users in Vue application using firebase-Vue-Vuex-Vue-Router **[12.09.2019]**
+- Learning how to validate forms in Vue application using firebase-Vue-Vuex-Vue-Router **[12.09.2019]**
