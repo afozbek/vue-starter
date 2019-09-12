@@ -23,7 +23,7 @@
   - Folder structuring of the components
 - Communication between components. **[29.08.2019]**
   - Undestanding props.
-  - Managin props
+  - Managing props
 - Understanding Slots & Dynamic Components with component & keep-alive **[30.08.2019]**
   - Building small application using slots & dynamic components
 - Creating custom directives on Vue **[31.08.2019]**
@@ -38,3 +38,4 @@
   - Better State Management than Event Bus or Event emitting
 - Built vue-stock-trader with vue, vuex, vue-router, firebase **[08.09.2019]**
 - Started to learn `Nuxt.js` **[10.09.2019]**
+- Learning how to authenticate users in Vue application using firebase-Vue-Vuex-Vue-Router **[12.09.2019]**
